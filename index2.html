@@ -1,0 +1,177 @@
+<!-- Creatig a porfolio website -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatik's portfolio website</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Comme:wght@100;700&family=IBM+Plex+Mono:ital,wght@0,100;1,100&family=Montserrat:wght@300&family=Poppins:ital,wght@0,400;1,600&display=swap"
+        rel="stylesheet">
+    <style>
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    body{
+        background-color:rgb(2, 2, 80);
+        color:white;
+        font-family: 'Poppins', sans-serif;
+    }
+    nav{
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+        height:80px;
+        background-color:rgb(3, 3, 124)
+    }
+    nav ul{
+        display:flex;
+        justify-content:center;
+    }
+    nav ul li{
+         list-style:none;
+         margin:0px 23px;
+    }
+    .left{
+        font-size:1.5rem;
+    }
+    header nav img{
+        height:80px;
+        width:80px;
+        margin: 1px -231px;
+    }
+    header nav li a{
+         text-decoration:none;
+         color:white;
+    }
+    header nav li a:hover{
+        color:lavender;
+        font-size:1.04rem;
+        font-weight:bold;
+    }
+    .first{
+        display:flex;
+        justify-content:space-around;
+        margin:0px 130px;
+        align-items:center;
+    }
+    .leftSection{
+        font-size:2.5rem;
+    }
+    .rightSection img{
+        width:80%;
+        margin:49px 0px;
+    }
+    .first>div{
+        width:30%;
+    }
+    .purple {
+        color: rgb(169, 81, 251);
+        }
+    #element{
+        color:rgb(127, 2, 244)
+    }
+    .secondsection {
+            max-width: 80vw;
+            height: 80vh;
+            margin: auto;
+            font-family: 'Poppins', sans-serif;
+        }
+    main hr {
+            border: 0px;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .textgray {
+            color: grey;
+        }
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+        .vertical-title {
+            position: relative;
+            font-size: 14px;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="https://media.licdn.com/dms/image/D4D03AQFeCmFGjO2-AA/profile-displayphoto-shrink_400_400/0/1679724296167?e=1696464000&v=beta&t=jQHkgNchOYIsQT6woQl0Ym8z4obU6XKzo94WuRlrUlU" alt="No-image">
+        <div class="left">Gatik's portfolio</div>
+        <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Us</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact us</a></li>
+                    <li><a href="/">Email-id</a></li>
+                </ul>
+        </div>
+        </nav>
+    </header>
+    <main>
+<section class="first">
+    <div class="leftSection">
+        Hi My Name is <span class="purple">Gatik</span>
+        <div>and I am a passionate</div>
+        <span id="element"></span>
+    </div>
+    <div class="rightSection">
+    <img src="gatik.png" alt="No-image">
+    </div>
+
+</section>
+<hr>
+<section class="secondsection">
+<span class="textgray">What I have done So far</span>
+<h1>Work experience</h1>
+<div class="box">
+    <div class="vertical">
+        <img src="gatik1.png" alt="No-image" class="image-top">
+        <div class="vertical-title">
+            HTML Developer(2010-2012)
+        </div>
+        <div class="vertical-desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, aut omnis necessitatibus, eligendi
+            aspernatur corrupti culpa, vel repudiandae porro nihil quis fugiat. Quod.
+        </div>
+    </div>
+</div>
+</section>
+</main>
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['Web Developer.', 'Graphic Designer.', 'Web Designer.', 'Video Editor.'],
+        typeSpeed: 50,
+    });
+</script>
+</html>

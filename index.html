@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gatik Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Comme:wght@100;700&family=IBM+Plex+Mono:ital,wght@0,100;1,100&family=Montserrat:wght@300&family=Poppins:ital,wght@0,400;1,600&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: rgb(0, 0, 92);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(0, 0, 65);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        ul li a:hover {
+            color: lavender;
+            font-size: 1.04rem;
+            font-weight: bold;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+/*yahan tak head waala section tyaar ho chuka hai*/
+        .first {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0px;
+            align-items: center;
+
+        }
+
+        .first>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 49px 0;
+        }
+
+        .purple {
+            color: rgb(169, 81, 251);
+        }
+
+        
+        #element {
+            color: rgb(238, 101, 238);
+        }
+
+
+
+        .secondsection {
+            max-width: 80vw;
+            height: 80vh;
+            margin: auto;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        main hr {
+            border: 0px;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .textgray {
+            color: grey;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            font-size: 14px;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+        }
+/*Ye wala to footer design karne ke lia hai*/
+        footer {
+            background-color: #0e0e1a;
+            height: 233px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 42px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 233px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            background-color: grey;
+        }
+
+        .e {
+            color: black;
+        }
+      .leftSection .btn{
+        padding:12px;
+        background-color:#000121;
+        color:white;
+        border:2px solid white;
+        border-radius:3px;
+        font-size:20px;
+        cursor:pointer;
+      }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Gatik's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftSection">
+                Hi my name is <span class="purple">Gatik</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Github-link</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="gatik.png" alt="no image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="textgray">What I have Done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="gatik1.png" alt="No image">
+                    <div class="vertical-title">
+                        HTML Developer(2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, aut omnis necessitatibus, eligendi
+                        aspernatur corrupti culpa, vel repudiandae porro nihil quis fugiat. Quod.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="gatik2.png" alt="No image">
+                    <div class="vertical-title">
+                        Node js Developer(2012-2014)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, aut omnis necessitatibus, eligendi
+                        aspernatur corrupti culpa, vel repudiandae porro nihil quis fugiat. Quod.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="gatik1.png" alt="No image">
+                    <div class="vertical-title">
+                        HTML Developer(2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, aut omnis necessitatibus, eligendi
+                        aspernatur corrupti culpa, vel repudiandae porro nihil quis fugiat. Quod.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="gatik4.png" alt="No image">
+                    <div class="vertical-title">
+                        HTML Developer(2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, aut omnis necessitatibus, eligendi
+                        aspernatur corrupti culpa, vel repudiandae porro nihil quis fugiat. Quod.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="gatik2.png" alt="No image">
+                    <div class="vertical-title">
+                        HTML Developer(2010-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, aut omnis necessitatibus, eligendi
+                        aspernatur corrupti culpa, vel repudiandae porro nihil quis fugiat. Quod.
+                    </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Gatik's developers portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">www.copyrights &#169; Gatiksportfolio.com | All rights reserved <span
+                class="e">@</span></div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Graphic Designer.', 'Web Designer.', 'Video Editor.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</body>
+
+</html>
